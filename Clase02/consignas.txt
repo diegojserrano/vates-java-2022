@@ -1,0 +1,65 @@
+- Crear un programa que ingrese por teclado cuatro números enteros.
+Luego de la carga calcule e informe:
+    - Suma de los cuatro números.
+    - Producto de los dos primeros y producto de los dos últimos.
+    - Cociente entre los dos resultados del punto anterior.
+    - Si alguno de los números es múltiplo de 3.
+    
+    
+Pasos:
+    - Crear un proyecto nuevo de IntelliJ
+    - Agregar una clase 
+    - A la clase agregar el método main
+    - Programar
+    - Ejecutarlo y probar con algunas combinaciones
+    
+Casos de prueba:
+
+1 2 3 4: 10 2 12 0.1666666 Sí
+4 4 4 4: 16 16 16 1 No
+2 5 8 0: 15 10 0 Infinity Sí
+235 878 234 75: 1422 206330 17550 11.76 Si
+
+
+Cargar números desde el archivo numeros.txt. Calcular e informar:
+- Suma de todos
+- Promedio de todos
+- Menor
+- Cantidad de pares
+- Cantidad de números por cada dígito en que termine. Cuantos terminan con 0, cuántos con 1, etc.
+
+503493
+503.493
+0
+495
+la cantidad que termina en 0 son 95
+la cantidad que termina en 1 son 123
+la cantidad que termina en 2 son 95
+la cantidad que termina en 3 son 99
+la cantidad que termina en 4 son 103
+la cantidad que termina en 5 son 96
+la cantidad que termina en 6 son 89
+la cantidad que termina en 7 son 90
+la cantidad que termina en 8 son 113
+la cantidad que termina en 9 son 97
+
+
+
+Del archivo personas.txt imprimir documento y edad de la persona de mayor y menor edad respectivamente.
+En el archivo hay una línea por cada persona y cada una contiene separados por comas los siguientes datos:
+- documento
+- nombre
+- edad
+
+
+
+
+
+
+
+
+
+
+
+
+
