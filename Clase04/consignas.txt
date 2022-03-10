@@ -1,0 +1,2 @@
+- Programar una clase CodigoPostal con atributos provincia, código y localidad. Leer el archivo CP.txt y cargarlo creando instancias de la clase CodigoPostal. A continuación permitir ingresar por teclado el nombre de una localidad y mostrar todos los datos de cualquier localidad cuyo nombre incluya el ingresado. Por ejemplo el usuario ingresa "palomas" debe mostrar los datos de "Agua de las palomas", "Las palomas" de Córdoba y "Las palomas" de Catamarca. El programa debe permitir ingresar múltiples búsquedas.
+
