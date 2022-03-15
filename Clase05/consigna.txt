@@ -1,0 +1,5 @@
+- En una empresa hay tres tipos de empleados, cada uno de ellos con diferentes fórmulas para el cálculo de sus sueldos.
+   - Obrero: cobra un monto fijo por cada día trabajado igual al sueldo básico dividido en 22.
+   - Administrativo: cobra un monto fijo por mes más un 13 % si cumplió con el presentismo.
+   - Vendedor: cobra un monto fijo por mes más una comisión de 1 % del total de sus ventas.
+
