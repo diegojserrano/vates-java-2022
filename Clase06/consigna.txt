@@ -1,0 +1,19 @@
+- En una empresa hay tres tipos de empleados, cada uno de ellos
+con diferentes fórmulas para el cálculo de sus sueldos.
+   - Obrero: cobra un monto fijo por cada día trabajado igual al
+   sueldo básico dividido en 22.
+   - Administrativo: cobra un monto fijo por mes más un 13 % si
+   cumplió con el presentismo.
+   - Vendedor: cobra un monto fijo por mes más una comisión de 1 %
+   del total de sus ventas.
+
+- Agregar una clase ListaEmpleados que permita almacenar un conjunto de empleados. La misma debe poseer un método para agregar un objeto de tipo Empleado.
+
+- Desarrollar un programa que lea un conjunto de empleados desde el archivo de texto empleados.csv y luego informe:
+   - El total a pagar en sueldo para cada tipo de empleados
+   - El total general.
+   - Todos los datos del empleado que menos cobra.	
+   - Promedio de sueldos de los obreros.
+Cada uno de los reportes debe estar calculado con un método en la clase ListaEmpleados.
+
+
