@@ -19,9 +19,14 @@ public class PersonasController {
 
     // Para agregar o modificar una persona
     @PutMapping("/{doc}")
-    public void guardar(@RequestBody Persona nueva){
+    public ResponseEntity guardar(@RequestBody Persona nueva) {
         // Falta validar
-        gestor.guardarPersona(nueva);
+        if (true){ // reglas de validacion {
+            gestor.guardarPersona(nueva);
+            return new ResponseEntity(HttpStatus.CREATED);
+        }
+        else
+            return new ResponseEntity("datos invalidos", HttpStatus.BAD_REQUEST);
     }
 
     // Para consultar una persona por documento
@@ -42,8 +47,13 @@ public class PersonasController {
 
     // Para borrar una persona por documento
     @DeleteMapping("/{doc}")
-    public void borrar(@PathVariable int doc) {
-        gestor.borrarPersona(doc);
+    public ResponseEntity borrar(@PathVariable int doc) {
+        if (gestor.buscarPersona(doc) != null) {
+            gestor.borrarPersona(doc);
+            return ResponseEntity.ok().build();
+        }
+        else
+            return new ResponseEntity(HttpStatus.NOT_FOUND);
     }
 
 

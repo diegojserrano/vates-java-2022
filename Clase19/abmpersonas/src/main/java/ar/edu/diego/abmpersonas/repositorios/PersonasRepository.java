@@ -39,7 +39,7 @@ public class PersonasRepository {
     @Transactional
     public void borrar(int documento) {
         Persona encontrada = em.find(Persona.class, documento);
-
+           throw new Exception();
         if (encontrada != null)
             em.remove(encontrada);
     }
